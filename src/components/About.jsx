@@ -5,61 +5,57 @@ const About = () => {
     <section id="about" className="about">
       <div className="about-container">
         <div className="section-header">
-          <span className="section-label">Know Your Candidate</span>
-          <h2 className="section-title">About Me</h2>
+          <span className="section-label">আপনার প্রার্থী সম্পর্কে জানুন</span>
+          <h2 className="section-title">পরিচিতি</h2>
           <div className="title-underline"></div>
         </div>
 
         <div className="about-content">
           <div className="about-card">
             <div className="card-icon">📚</div>
-            <h3>Education</h3>
+            <h3>শিক্ষা</h3>
             <p>
-              Master's in Political Science from National University. Bachelor's
-              in Law. Continuous learner committed to policy excellence.
+              জাতীয় বিশ্ববিদ্যালয় থেকে রাষ্ট্রবিজ্ঞানে স্নাতকোত্তর। আইনে স্নাতক। 
+              নীতি উৎকর্ষে প্রতিশ্রুতিবদ্ধ ক্রমাগত শিক্ষার্থী।
             </p>
           </div>
 
           <div className="about-card">
             <div className="card-icon">💼</div>
-            <h3>Experience</h3>
+            <h3>অভিজ্ঞতা</h3>
             <p>
-              15+ years in public service, including roles as City Council
-              Member, Education Committee Chair, and Community Development
-              Director.
+              জনসেবায় ১৫+ বছরের অভিজ্ঞতা, যার মধ্যে রয়েছে সিটি কাউন্সিল সদস্য, 
+              শিক্ষা কমিটির চেয়ারম্যান এবং কমিউনিটি ডেভেলপমেন্ট ডিরেক্টরের দায়িত্ব।
             </p>
           </div>
 
           <div className="about-card">
             <div className="card-icon">❤️</div>
-            <h3>Values</h3>
+            <h3>মূল্যবোধ</h3>
             <p>
-              Integrity, Transparency, Service, Justice, and Equality. Dedicated
-              to representing every voice in our community.
+              সততা, স্বচ্ছতা, সেবা, ন্যায়বিচার এবং সমতা। আমাদের সম্প্রদায়ের 
+              প্রতিটি কণ্ঠস্বরের প্রতিনিধিত্বে নিবেদিত।
             </p>
           </div>
         </div>
 
         <div className="about-story">
-          <h3 className="story-title">My Journey</h3>
+          <h3 className="story-title">আমার যাত্রা</h3>
           <p className="story-text">
-            Born and raised in this community, I've witnessed firsthand the
-            challenges we face and the opportunities we can create together. My
-            journey in public service began with grassroots organizing, where I
-            learned the power of community action and collective voice.
+            এই সম্প্রদায়ে জন্ম ও বেড়ে ওঠা, আমি প্রত্যক্ষভাবে আমাদের মুখোমুখি চ্যালেঞ্জগুলি 
+            এবং একসাথে আমরা যে সুযোগগুলি তৈরি করতে পারি তা প্রত্যক্ষ করেছি। জনসেবায় আমার যাত্রা 
+            শুরু হয়েছিল তৃণমূল সংগঠন থেকে, যেখানে আমি সম্প্রদায়ের কর্ম এবং সম্মিলিত কণ্ঠের শক্তি শিখেছি।
           </p>
           <p className="story-text">
-            Over the years, I've worked tirelessly to bring positive change -
-            from improving our education system to creating job opportunities,
-            from protecting our environment to ensuring healthcare access for
-            all. Every decision I make is guided by one principle: What's best
-            for the people I serve?
+            বছরের পর বছর, আমি ইতিবাচক পরিবর্তন আনতে নিরলস পরিশ্রম করেছি - আমাদের শিক্ষা ব্যবস্থার 
+            উন্নতি থেকে শুরু করে কর্মসংস্থানের সুযোগ তৈরি, আমাদের পরিবেশ রক্ষা থেকে সবার জন্য 
+            স্বাস্থ্যসেবা নিশ্চিত করা পর্যন্ত। আমার প্রতিটি সিদ্ধান্ত একটি নীতি দ্বারা পরিচালিত: 
+            আমার সেবা করা জনগণের জন্য কোনটি সেরা?
           </p>
           <p className="story-text">
-            This campaign isn't about me - it's about us. Together, we can build
-            a future where everyone has the opportunity to thrive, where justice
-            prevails, and where our community stands as a beacon of hope and
-            progress.
+            এই প্রচারণা আমার সম্পর্কে নয় - এটি আমাদের সম্পর্কে। একসাথে, আমরা এমন ভবিষ্যত 
+            গড়তে পারি যেখানে প্রত্যেকের উন্নতির সুযোগ আছে, যেখানে ন্যায়বিচার প্রাধান্য পায় 
+            এবং আমাদের সম্প্রদায় আশা এবং অগ্রগতির আলোকবর্তিকা হিসেবে দাঁড়িয়ে থাকে।
           </p>
         </div>
       </div>

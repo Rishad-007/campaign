@@ -13,10 +13,10 @@ const Footer = () => {
               alt="Party Logo"
               className="footer-logo"
             />
-            <h3>For The People</h3>
+            <h3>জনগণের জন্য</h3>
             <p>
-              Committed to serving with integrity, transparency, and dedication.
-              Together, we can build a better future for all.
+              সততা, স্বচ্ছতা এবং নিষ্ঠার সাথে সেবা করতে প্রতিশ্রুতিবদ্ধ। 
+              একসাথে, আমরা সবার জন্য একটি উন্নত ভবিষ্যৎ গড়তে পারি।
             </p>
             <div className="social-icons">
               <a href="#facebook" aria-label="Facebook">
@@ -35,58 +35,58 @@ const Footer = () => {
           </div>
 
           <div className="footer-section">
-            <h4>Quick Links</h4>
+            <h4>দ্রুত লিঙ্ক</h4>
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <a href="#home">হোম</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#about">পরিচিতি</a>
               </li>
               <li>
-                <a href="#issues">Key Issues</a>
+                <a href="#issues">মূল বিষয়সমূহ</a>
               </li>
               <li>
-                <a href="#achievements">Achievements</a>
+                <a href="#achievements">অর্জনসমূহ</a>
               </li>
               <li>
-                <a href="#vision">Vision</a>
+                <a href="#vision">রূপকল্প</a>
               </li>
               <li>
-                <a href="#gallery">Gallery</a>
+                <a href="#gallery">গ্যালারি</a>
               </li>
             </ul>
           </div>
 
           <div className="footer-section">
-            <h4>Get Involved</h4>
+            <h4>যুক্ত হন</h4>
             <ul>
               <li>
-                <a href="#volunteer">Volunteer</a>
+                <a href="#volunteer">স্বেছ্ছাসেবক</a>
               </li>
               <li>
-                <a href="#donate">Donate</a>
+                <a href="#donate">দান করুন</a>
               </li>
               <li>
-                <a href="#events">Events</a>
+                <a href="#events">অনুষ্ঠান</a>
               </li>
               <li>
-                <a href="#contact">Contact Us</a>
+                <a href="#contact">যোগাযোগ</a>
               </li>
               <li>
-                <a href="#newsletter">Newsletter</a>
+                <a href="#newsletter">নিউজলেটার</a>
               </li>
             </ul>
           </div>
 
           <div className="footer-section">
-            <h4>Stay Updated</h4>
+            <h4>আপডেট থাকুন</h4>
             <p>
-              Subscribe to our newsletter for latest updates and campaign news.
+              সর্বশেষ আপডেট এবং প্রচার সংবাদের জন্য আমাদের নিউজলেটার সাবস্ক্রাইব করুন।
             </p>
             <form className="newsletter-form">
-              <input type="email" placeholder="Enter your email" required />
-              <button type="submit">Subscribe</button>
+              <input type="email" placeholder="আপনার ইমেইল দিন" required />
+              <button type="submit">সাবস্ক্রাইব</button>
             </form>
             <div className="footer-contact">
               <p>📞 +1 (555) 123-4567</p>
@@ -98,13 +98,13 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-divider"></div>
           <div className="footer-bottom-content">
-            <p>&copy; {currentYear} Campaign. All rights reserved.</p>
+            <p>&copy; {currentYear} প্রচার। সর্বস্বত্ব সংরক্ষিত।</p>
             <div className="footer-links">
-              <a href="#privacy">Privacy Policy</a>
+              <a href="#privacy">গোপনীয়তা নীতি</a>
               <span>|</span>
-              <a href="#terms">Terms of Service</a>
+              <a href="#terms">সেবার শর্তাবলী</a>
               <span>|</span>
-              <a href="#accessibility">Accessibility</a>
+              <a href="#accessibility">সুগম্যতা</a>
             </div>
           </div>
         </div>

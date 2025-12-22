@@ -18,39 +18,39 @@ const Header = () => {
       <div className="header-container">
         <div className="logo-section">
           <img src="/party-logo.png" alt="Party Logo" className="party-logo" />
-          <span className="logo-text">For The People</span>
+          <span className="logo-text">জনগণের জন্য</span>
         </div>
 
         <nav className={`nav ${mobileMenu ? "mobile-open" : ""}`}>
           <a href="#home" onClick={() => setMobileMenu(false)}>
-            Home
+            হোম
           </a>
           <a href="#about" onClick={() => setMobileMenu(false)}>
-            About
+            পরিচিতি
           </a>
           <a href="#issues" onClick={() => setMobileMenu(false)}>
-            Key Issues
+            মূল বিষয়সমূহ
           </a>
           <a href="#achievements" onClick={() => setMobileMenu(false)}>
-            Achievements
+            অর্জনসমূহ
           </a>
           <a href="#vision" onClick={() => setMobileMenu(false)}>
-            Vision
+            রূপকল্প
           </a>
           <a href="#gallery" onClick={() => setMobileMenu(false)}>
-            Gallery
+            গ্যালারি
           </a>
           <a href="#contact" onClick={() => setMobileMenu(false)}>
-            Contact
+            যোগাযোগ
           </a>
         </nav>
 
         <div className="header-actions">
           <a href="#contact" className="btn-donate">
-            Donate
+            দান করুন
           </a>
           <a href="#volunteer" className="btn-volunteer">
-            Volunteer
+            স্বেচ্ছাসেবক
           </a>
         </div>
 

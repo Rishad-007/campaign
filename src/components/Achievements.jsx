@@ -3,46 +3,46 @@ import "./Achievements.css";
 const Achievements = () => {
   const achievements = [
     {
-      year: "2023",
-      title: "Healthcare Reform Act",
+      year: "২০২৩",
+      title: "স্বাস্থ্যসেবা সংস্কার আইন",
       description:
-        "Led the passage of comprehensive healthcare legislation providing coverage to 100,000+ uninsured citizens.",
-      impact: "100K+ Lives Improved",
+        "১০০,০০০+ বীমাহীন নাগরিকদের বীমা প্রদানকারী ব্যাপক স্বাস্থ্যসেবা আইন পাসের নেতৃত্ব দিয়েছি।",
+      impact: "১০০,০০০+ জীবন উন্নত",
     },
     {
-      year: "2022",
-      title: "Green Energy Initiative",
+      year: "২০২২",
+      title: "সবুজ শক্তি উদ্যোগ",
       description:
-        "Launched renewable energy program reducing carbon emissions by 40% in our district.",
-      impact: "40% Emission Reduction",
+        "আমাদের জেলায় কার্বন নিঃসরণ ৪০% কমিয়ে নবায়নযোগ্য শক্তি কর্মসূচি শুরু করেছি।",
+      impact: "৪০% নিঃসরণ হ্রাস",
     },
     {
-      year: "2021",
-      title: "Education Excellence Program",
+      year: "২০২১",
+      title: "শিক্ষা উৎকর্ষ কর্মসূচি",
       description:
-        "Secured funding for 50 new schools and technology upgrades in underserved communities.",
-      impact: "50 Schools Built",
+        "বঞ্চিত সম্প্রদায়ে ৫০টি নতুন স্কুল এবং প্রযুক্তি উন্নয়নের জন্য অর্থ প্রদান করেছি।",
+      impact: "৫০টি স্কুল নির্মিত",
     },
     {
-      year: "2020",
-      title: "Job Creation Drive",
+      year: "২০২০",
+      title: "কর্মসংস্থান সৃষ্টি অভিযান",
       description:
-        "Attracted major investments creating 5,000+ jobs and supporting local businesses.",
-      impact: "5,000+ Jobs Created",
+        "প্রধান বিনিয়োগ আকর্ষণ করে ৫,০০০+ কর্মসংস্থান তৈরি এবং স্থানীয় ব্যবসা সহায়তা করেছি।",
+      impact: "৫,০০০+ কর্মসংস্থান তৈরি",
     },
     {
-      year: "2019",
-      title: "Infrastructure Modernization",
+      year: "২০১৯",
+      title: "অবকাঠামো আধুনিকীকরণ",
       description:
-        "Oversaw construction of 500km roads, 10 bridges, and improved public transport systems.",
-      impact: "500km Roads Built",
+        "৫০০ কিলোমিটার সড়ক, ১০টি সেতু এবং উন্নত গণপরিবহন ব্যবস্থার নির্মাণ তদারক করেছি।",
+      impact: "৫০০ কিমি সড়ক নির্মিত",
     },
     {
-      year: "2018",
-      title: "Youth Empowerment Initiative",
+      year: "২০১৮",
+      title: "যুব সশক্তিকরণ উদ্যোগ",
       description:
-        "Established skill development centers training 10,000+ young people annually.",
-      impact: "10K+ Youth Trained",
+        "দক্ষতা উন্নয়ন কেন্দ্র প্রতিষ্ঠা করেছি যেখানে বছরে ১০,০০০+ যুবককে প্রশিক্ষণ দেওয়া হয়।",
+      impact: "১০,০০০+ যুবক প্রশিক্ষিত",
     },
   ];
 
@@ -50,12 +50,12 @@ const Achievements = () => {
     <section id="achievements" className="achievements">
       <div className="achievements-container">
         <div className="section-header">
-          <span className="section-label">Track Record</span>
-          <h2 className="section-title">Achievements</h2>
+          <span className="section-label">প্রদর্শন রেকর্ড</span>
+          <h2 className="section-title">অর্জনসমূহ</h2>
           <div className="title-underline"></div>
           <p className="section-description">
-            Results speak louder than promises. Here are some of the initiatives
-            I've led that have made a real difference in people's lives.
+            কাজ প্রতিশ্রুতির চেয়ে উচ্চস্বরে কথা বলে। এখানে আছে কিছু উদ্যোগ যা আমি নেতৃত্ব 
+            দিয়েছি এবং যা মানুষের জীবনে প্রকৃত পরিবর্তন এনেছে।
           </p>
         </div>
 
@@ -80,20 +80,20 @@ const Achievements = () => {
 
         <div className="achievements-summary">
           <div className="summary-card">
-            <h3>15+</h3>
-            <p>Years in Public Service</p>
+            <h3>১৫+</h3>
+            <p>বছর জনসেবায়</p>
           </div>
           <div className="summary-card">
-            <h3>500+</h3>
-            <p>Projects Completed</p>
+            <h3>৫০০+</h3>
+            <p>সমাপ্ত প্রকল্প</p>
           </div>
           <div className="summary-card">
-            <h3>50K+</h3>
-            <p>Lives Directly Impacted</p>
+            <h3>৫০,০০০+</h3>
+            <p>সরাসরি প্রভাবিত জীবন</p>
           </div>
           <div className="summary-card">
-            <h3>98%</h3>
-            <p>Constituent Satisfaction</p>
+            <h3>৯৮%</h3>
+            <p>নির্বাচকমণ্ডলী সন্তুষ্টি</p>
           </div>
         </div>
       </div>

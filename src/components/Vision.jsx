@@ -5,8 +5,8 @@ const Vision = () => {
     <section id="vision" className="vision">
       <div className="vision-container">
         <div className="section-header">
-          <span className="section-label">Our Future</span>
-          <h2 className="section-title">Vision & Mission</h2>
+          <span className="section-label">আমাদের ভবিষ্যৎ</span>
+          <h2 className="section-title">রূপকল্প ও লক্ষ্য</h2>
           <div className="title-underline"></div>
         </div>
 
@@ -14,68 +14,67 @@ const Vision = () => {
           <div className="vision-box main-vision">
             <div className="vision-header">
               <div className="vision-icon">🎯</div>
-              <h3>Our Vision</h3>
+              <h3>আমাদের রূপকল্প</h3>
             </div>
             <p>
-              A prosperous, equitable society where every citizen has access to
-              quality healthcare, education, and opportunities to thrive. A
-              community built on justice, sustainability, and shared prosperity
-              where no one is left behind.
+              একটি সমৃদ্ধ, ন্যায়সংগত সমাজ যেখানে প্রতিটি নাগরিক মানসম্পন্ন স্বাস্থ্যসেবা, 
+              শিক্ষা এবং উন্নতির সুযোগ পাবে। একটি সম্প্রদায় যা ন্যায়বিচার, টেকসইতা এবং 
+              সাধারণ সমৃদ্ধির উপর নির্মিত যেখানে কাউকে পেছনে ফেলা হবে না।
             </p>
           </div>
 
           <div className="mission-grid">
             <div className="mission-card">
-              <div className="mission-number">01</div>
-              <h4>Economic Prosperity</h4>
+              <div className="mission-number">০১</div>
+              <h4>অর্থনৈতিক সমৃদ্ধি</h4>
               <p>
-                Create sustainable jobs, support small businesses, and ensure
-                economic growth benefits all citizens.
+                টেকসই কর্মসংস্থান তৈরি, ক্ষুদ্র ব্যবসায় সহায়তা এবং অর্থনৈতিক 
+                প্রবৃদ্ধি যাতে সকল নাগরিকের কল্যাণ করে তা নিশ্চিত করা।
               </p>
             </div>
 
             <div className="mission-card">
-              <div className="mission-number">02</div>
-              <h4>Social Justice</h4>
+              <div className="mission-number">০২</div>
+              <h4>সামাজিক ন্যায়বিচার</h4>
               <p>
-                Ensure equal rights and opportunities for all, regardless of
-                background, gender, or economic status.
+                পটভূমি, লিঙ্গ বা অর্থনৈতিক অবস্থা নির্বিশেষে সবার জন্য সমান 
+                অধিকার এবং সুযোগ নিশ্চিত করা।
               </p>
             </div>
 
             <div className="mission-card">
-              <div className="mission-number">03</div>
-              <h4>Quality Services</h4>
+              <div className="mission-number">০৩</div>
+              <h4>মানসম্পন্ন সেবা</h4>
               <p>
-                Deliver world-class healthcare, education, and public services
-                accessible to every community.
+                বিশ্বমানের স্বাস্থ্যসেবা, শিক্ষা এবং প্রতিটি সম্প্রদায়ের জন্য 
+                সহজলভ্য জনসেবা প্রদান করা।
               </p>
             </div>
 
             <div className="mission-card">
-              <div className="mission-number">04</div>
-              <h4>Sustainable Future</h4>
+              <div className="mission-number">০৪</div>
+              <h4>টেকসই ভবিষ্যৎ</h4>
               <p>
-                Protect our environment, invest in renewable energy, and
-                preserve resources for future generations.
+                আমাদের পরিবেশ রক্ষা, নবায়নযোগ্য শক্তিতে বিনিয়োগ এবং 
+                ভবিষ্যৎ প্রজন্মের জন্য সম্পদ সংরক্ষণ করা।
               </p>
             </div>
 
             <div className="mission-card">
-              <div className="mission-number">05</div>
-              <h4>Good Governance</h4>
+              <div className="mission-number">০৫</div>
+              <h4>সুশাসন</h4>
               <p>
-                Maintain transparency, accountability, and fight corruption at
-                every level of government.
+                স্বচ্ছতা, জবাবদিহিতা বজায় রাখা এবং সরকারের প্রতিটি স্তরে 
+                দুর্নীতির বিরুদ্ধে লড়াই করা।
               </p>
             </div>
 
             <div className="mission-card">
-              <div className="mission-number">06</div>
-              <h4>Community Unity</h4>
+              <div className="mission-number">০৬</div>
+              <h4>সম্প্রদায়ের ঐক্য</h4>
               <p>
-                Build bridges between communities, celebrate diversity, and
-                foster inclusive development.
+                সম্প্রদায়ের মধ্যে সেতু নির্মাণ, বৈচিত্র্য উদযাপন এবং 
+                সকলকে অন্তর্ভুক্ত করে উন্নয়ন করা।
               </p>
             </div>
           </div>
@@ -84,11 +83,11 @@ const Vision = () => {
         <div className="vision-quote">
           <div className="quote-mark">"</div>
           <p className="quote-text">
-            Together, we can transform challenges into opportunities and build a
-            future where every citizen can live with dignity, hope, and
-            prosperity. This is not just my vision—it's our shared dream.
+            একসাথে, আমরা চ্যালেঞ্জগুলিকে সুযোগে রূপান্তরিত করতে পারি এবং এমন 
+            ভবিষ্যত গড়তে পারি যেখানে প্রতিটি নাগরিক মর্যাদা, আশা এবং সমৃদ্ধির সাথে 
+            বসবাস করতে পারবে। এটি শুধু আমার রূপকল্প নয়—এটি আমাদের সাধারণ স্বপ্ন।
           </p>
-          <div className="quote-author">— Your Candidate</div>
+          <div className="quote-author">— আপনার প্রার্থী</div>
         </div>
       </div>
     </section>

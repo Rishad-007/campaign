@@ -4,44 +4,44 @@ const KeyIssues = () => {
   const issues = [
     {
       icon: "🏥",
-      title: "Healthcare for All",
+      title: "সবার জন্য স্বাস্থ্যসেবা",
       description:
-        "Universal healthcare access, affordable medicines, and modern medical facilities for every citizen.",
+        "সার্বজনীন স্বাস্থ্যসেবা, সাশ্রয়ী মূল্যের ওষুধ এবং প্রতিটি নাগরিকের জন্য আধুনিক চিকিৎসা সুবিধা।",
       color: "red",
     },
     {
       icon: "🎓",
-      title: "Quality Education",
+      title: "মানসম্পন্ন শিক্ষা",
       description:
-        "Free quality education, skill development programs, and digital literacy for the next generation.",
+        "বিনামূল্যে মানসম্পন্ন শিক্ষা, দক্ষতা উন্নয়ন কর্মসূচি এবং পরবর্তী প্রজন্মের জন্য ডিজিটাল সাক্ষরতা।",
       color: "green",
     },
     {
       icon: "💼",
-      title: "Job Creation",
+      title: "কর্মসংস্থান সৃষ্টি",
       description:
-        "Creating sustainable employment opportunities, supporting small businesses, and fostering entrepreneurship.",
+        "টেকসই কর্মসংস্থানের সুযোগ তৈরি, ক্ষুদ্র ব্যবসায় সহায়তা এবং উদ্যোক্তা উন্নয়ন।",
       color: "red",
     },
     {
       icon: "🏘️",
-      title: "Infrastructure Development",
+      title: "অবকাঠামো উন্নয়ন",
       description:
-        "Modern roads, bridges, public transport, and utilities to connect and empower communities.",
+        "আধুনিক সড়ক, সেতু, গণপরিবহন এবং সম্প্রদায়কে সংযুক্ত ও ক্ষমতায়নের জন্য ইউটিলিটি।",
       color: "green",
     },
     {
       icon: "🌱",
-      title: "Environmental Protection",
+      title: "পরিবেশ সংরক্ষণ",
       description:
-        "Sustainable development, clean energy initiatives, and preserving natural resources for future generations.",
+        "টেকসই উন্নয়ন, পরিচ্ছন্ন শক্তি উদ্যোগ এবং ভবিষ্যৎ প্রজন্মের জন্য প্রাকৃতিক সম্পদ সংরক্ষণ।",
       color: "red",
     },
     {
       icon: "⚖️",
-      title: "Justice & Equality",
+      title: "ন্যায়বিচার ও সমতা",
       description:
-        "Equal rights, social justice, protection of minorities, and ensuring dignity for all citizens.",
+        "সমান অধিকার, সামাজিক ন্যায়বিচার, সংখ্যালঘুদের সুরক্ষা এবং সকল নাগরিকের জন্য মর্যাদা নিশ্চিতকরণ।",
       color: "green",
     },
   ];
@@ -50,12 +50,12 @@ const KeyIssues = () => {
     <section id="issues" className="key-issues">
       <div className="issues-container">
         <div className="section-header">
-          <span className="section-label">Our Priorities</span>
-          <h2 className="section-title">Key Issues</h2>
+          <span className="section-label">আমাদের অগ্রাধিকার</span>
+          <h2 className="section-title">মূল বিষয়সমূহ</h2>
           <div className="title-underline"></div>
           <p className="section-description">
-            These are the core issues I am committed to addressing. Your voice
-            matters, and together we will create meaningful change.
+            এগুলি মূল বিষয় যা সমাধানে আমি প্রতিশ্রুতিবদ্ধ। আপনার কণ্ঠস্বর গুরুত্বপূর্ণ 
+            এবং একসাথে আমরা অর্থবহ পরিবর্তন সৃষ্টি করব।
           </p>
         </div>
 
@@ -71,13 +71,13 @@ const KeyIssues = () => {
         </div>
 
         <div className="issues-cta">
-          <h3>Have a concern or suggestion?</h3>
+          <h3>আপনার কোন উদ্বেগ বা পরামর্শ আছে?</h3>
           <p>
-            Your input shapes our policies. Share your thoughts and help us
-            build better solutions.
+            আপনার মতামত আমাদের নীতি তৈরি করে। আপনার চিন্তা শেয়ার করুন এবং 
+            আরও ভাল সমাধান তৈরিতে আমাদের সাহায্য করুন।
           </p>
           <a href="#contact" className="btn-primary">
-            Share Your Ideas
+            আপনার ধারণা শেয়ার করুন
           </a>
         </div>
       </div>

@@ -7,36 +7,35 @@ const Hero = () => {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title fade-in-up">
-            Leading With <span className="gradient-text">Vision</span>
+            <span className="gradient-text">রূপকল্পে</span> নেতৃত্ব
           </h1>
           <h2 className="hero-subtitle fade-in-up">
-            Building A Better Future Together
+            একসাথে গড়ি উন্নত ভবিষ্যৎ
           </h2>
           <p className="hero-description fade-in-up">
-            Committed to serving the people with integrity, dedication, and
-            unwavering principles. Join us in creating positive change for our
-            community.
+            সততা, নিষ্ঠা এবং অবিচল নীতিবোধ নিয়ে জনগণের সেবায় প্রতিশ্রুতিবদ্ধ। 
+            আমাদের সম্প্রদায়ে ইতিবাচক পরিবর্তন আনতে আমাদের সাথে যোগ দিন।
           </p>
           <div className="hero-buttons fade-in-up">
             <a href="#about" className="btn-primary">
-              Learn More
+              আরও জানুন
             </a>
             <a href="#contact" className="btn-secondary">
-              Get Involved
+              যুক্ত হোন
             </a>
           </div>
           <div className="hero-stats fade-in-up">
             <div className="stat">
-              <h3>15+</h3>
-              <p>Years of Service</p>
+              <h3>১৫+</h3>
+              <p>বছরের সেবা</p>
             </div>
             <div className="stat">
-              <h3>500+</h3>
-              <p>Projects Completed</p>
+              <h3>৫০০+</h3>
+              <p>সমাপ্ত প্রকল্প</p>
             </div>
             <div className="stat">
-              <h3>50K+</h3>
-              <p>Lives Impacted</p>
+              <h3>৫০,০০০+</h3>
+              <p>প্রভাবিত জীবন</p>
             </div>
           </div>
         </div>

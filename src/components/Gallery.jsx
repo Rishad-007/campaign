@@ -5,26 +5,25 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const galleryItems = [
-    { id: 1, title: "Community Outreach", category: "events" },
-    { id: 2, title: "Healthcare Visit", category: "service" },
-    { id: 3, title: "School Inauguration", category: "education" },
-    { id: 4, title: "Town Hall Meeting", category: "events" },
-    { id: 5, title: "Environmental Initiative", category: "environment" },
-    { id: 6, title: "Youth Program", category: "education" },
-    { id: 7, title: "Infrastructure Project", category: "development" },
-    { id: 8, title: "Senior Citizens Meeting", category: "service" },
+    { id: 1, title: "সম্প্রদায় প্রচার", category: "অনুষ্ঠান" },
+    { id: 2, title: "স্বাস্থ্যসেবা পরিদর্শন", category: "সেবা" },
+    { id: 3, title: "স্কুল উদ্বোধন", category: "শিক্ষা" },
+    { id: 4, title: "টাউন হল সভা", category: "অনুষ্ঠান" },
+    { id: 5, title: "পরিবেশ উদ্যোগ", category: "পরিবেশ" },
+    { id: 6, title: "যুব কর্মসূচি", category: "শিক্ষা" },
+    { id: 7, title: "অবকাঠামো প্রকল্প", category: "উন্নয়ন" },
+    { id: 8, title: "বয়োজ্যেষ্ঠ নাগরিক সভা", category: "সেবা" },
   ];
 
   return (
     <section id="gallery" className="gallery">
       <div className="gallery-container">
         <div className="section-header">
-          <span className="section-label">In Action</span>
-          <h2 className="section-title">Gallery</h2>
+          <span className="section-label">কর্মে</span>
+          <h2 className="section-title">গ্যালারি</h2>
           <div className="title-underline"></div>
           <p className="section-description">
-            A glimpse into our journey of service, community engagement, and
-            positive change.
+            আমাদের সেবা, সম্প্রদায় যুক্ততা এবং ইতিবাচক পরিবর্তনের যাত্রার একঝলক।
           </p>
         </div>
 
@@ -52,23 +51,22 @@ const Gallery = () => {
         </div>
 
         <div className="gallery-cta">
-          <h3>Stay Connected</h3>
+          <h3>সংযুক্ত থাকুন</h3>
           <p>
-            Follow us on social media for daily updates and behind-the-scenes
-            moments
+            দৈনিক আপডেট এবং পর্দার আড়ালে ঘটনার জন্য সোশ্যাল মিডিয়ায় আমাদের অনুসরণ করুন
           </p>
           <div className="social-links">
             <a href="#facebook" className="social-btn">
-              Facebook
+              ফেসবুক
             </a>
             <a href="#twitter" className="social-btn">
-              Twitter
+              টুইটার
             </a>
             <a href="#instagram" className="social-btn">
-              Instagram
+              ইনস্টাগ্রাম
             </a>
             <a href="#youtube" className="social-btn">
-              YouTube
+              ইউটিউব
             </a>
           </div>
         </div>
