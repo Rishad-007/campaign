@@ -1,0 +1,8 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="200" y="0" fill="#c41e3a"/>
+  <rect width="600" height="200" y="200" fill="#1a472a"/>
+  <circle cx="300" cy="200" r="80" fill="#ffffff"/>
+  <text x="50%" y="52%" font-family="Arial, sans-serif" font-size="28" fill="#c41e3a" text-anchor="middle" dy=".3em" font-weight="bold">
+    FLAG
+  </text>
+</svg>

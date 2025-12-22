@@ -1,0 +1,17 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c41e3a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a472a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#grad2)"/>
+  <circle cx="200" cy="200" r="120" fill="none" stroke="#ffffff" stroke-width="8"/>
+  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="32" fill="#ffffff" text-anchor="middle" dy=".3em" font-weight="bold">
+    PARTY
+  </text>
+  <text x="50%" y="60%" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" dy=".3em">
+    LOGO
+  </text>
+</svg>
