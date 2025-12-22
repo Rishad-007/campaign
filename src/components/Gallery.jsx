@@ -5,14 +5,54 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const galleryItems = [
-    { id: 1, title: "সম্প্রদায় প্রচার", category: "অনুষ্ঠান" },
-    { id: 2, title: "স্বাস্থ্যসেবা পরিদর্শন", category: "সেবা" },
-    { id: 3, title: "স্কুল উদ্বোধন", category: "শিক্ষা" },
-    { id: 4, title: "টাউন হল সভা", category: "অনুষ্ঠান" },
-    { id: 5, title: "পরিবেশ উদ্যোগ", category: "পরিবেশ" },
-    { id: 6, title: "যুব কর্মসূচি", category: "শিক্ষা" },
-    { id: 7, title: "অবকাঠামো প্রকল্প", category: "উন্নয়ন" },
-    { id: 8, title: "বয়োজ্যেষ্ঠ নাগরিক সভা", category: "সেবা" },
+    {
+      id: 1,
+      title: "সম্প্রদায় প্রচার",
+      category: "অনুষ্ঠান",
+      image: "/gallery-1.JPG",
+    },
+    {
+      id: 2,
+      title: "স্বাস্থ্যসেবা পরিদর্শন",
+      category: "সেবা",
+      image: "/gallery-1.JPG",
+    },
+    {
+      id: 3,
+      title: "স্কুল উদ্বোধন",
+      category: "শিক্ষা",
+      image: "/gallery-1.JPG",
+    },
+    {
+      id: 4,
+      title: "টাউন হল সভা",
+      category: "অনুষ্ঠান",
+      image: "/gallery-1.JPG",
+    },
+    {
+      id: 5,
+      title: "পরিবেশ উদ্যোগ",
+      category: "পরিবেশ",
+      image: "/gallery-1.JPG",
+    },
+    {
+      id: 6,
+      title: "যুব কর্মসূচি",
+      category: "শিক্ষা",
+      image: "/gallery-1.JPG",
+    },
+    {
+      id: 7,
+      title: "অবকাঠামো প্রকল্প",
+      category: "উন্নয়ন",
+      image: "/gallery-1.JPG",
+    },
+    {
+      id: 8,
+      title: "বয়োজ্যেষ্ঠ নাগরিক সভা",
+      category: "সেবা",
+      image: "/gallery-1.JPG",
+    },
   ];
 
   return (
@@ -36,7 +76,7 @@ const Gallery = () => {
               onClick={() => setSelectedImage(item)}
             >
               <img
-                src={`/gallery-${item.id}.jpg`}
+                src={item.image}
                 alt={item.title}
                 onError={(e) => {
                   e.target.src =
@@ -86,10 +126,7 @@ const Gallery = () => {
             >
               ×
             </button>
-            <img
-              src={`/gallery-${selectedImage.id}.jpg`}
-              alt={selectedImage.title}
-            />
+            <img src={selectedImage.image} alt={selectedImage.title} />
             <h3>{selectedImage.title}</h3>
           </div>
         </div>

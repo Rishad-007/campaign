@@ -229,4 +229,37 @@
   .social-btn {
     width: 100%;
   }
+
+  /* Mobile lightbox improvements */
+  .lightbox {
+    padding: 10px;
+  }
+
+  .lightbox-content {
+    max-width: 100%;
+    width: 100%;
+    max-height: 95vh;
+    padding: 15px;
+    margin: 0;
+  }
+
+  .lightbox-content img {
+    max-height: calc(95vh - 100px);
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .lightbox-content h3 {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .close-btn {
+    top: 5px;
+    right: 5px;
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+  }
 }

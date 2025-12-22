@@ -1,11 +1,36 @@
+import { useState, useEffect, useRef } from "react";
 import "./Hero.css";
 
 const Hero = () => {
+  const [showFloatingBadge, setShowFloatingBadge] = useState(false);
+  const imageBadgeRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (imageBadgeRef.current) {
+        const rect = imageBadgeRef.current.getBoundingClientRect();
+        // Show floating badge when image badge is out of viewport
+        setShowFloatingBadge(rect.bottom < 0 || rect.top > window.innerHeight);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Check initial state
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <section id="home" className="hero">
       <div className="hero-bg"></div>
       <div className="hero-content">
         <div className="hero-text">
+          <div className="candidate-name-badge fade-in-up">
+            <span className="badge-label">লালমনিরহাট-৩ আসনের প্রার্থী</span>
+            <h1 className="candidate-name">আসাদুল হাবিব দুলু</h1>
+          </div>
           <h1 className="hero-title fade-in-up">
             <span className="gradient-text">রূপকল্পে</span> নেতৃত্ব
           </h1>
@@ -16,14 +41,7 @@ const Hero = () => {
             সততা, নিষ্ঠা এবং অবিচল নীতিবোধ নিয়ে জনগণের সেবায় প্রতিশ্রুতিবদ্ধ।
             আমাদের সম্প্রদায়ে ইতিবাচক পরিবর্তন আনতে আমাদের সাথে যোগ দিন।
           </p>
-          <div className="hero-buttons fade-in-up">
-            <a href="#about" className="btn-primary">
-              আরও জানুন
-            </a>
-            <a href="#contact" className="btn-secondary">
-              যুক্ত হোন
-            </a>
-          </div>
+
           <div className="hero-stats fade-in-up">
             <div className="stat">
               <h3>১৫+</h3>
@@ -48,14 +66,15 @@ const Hero = () => {
             />
             <div className="frame-decoration"></div>
           </div>
-          <div className="floating-badge">
-            <img
-              src="/logo.png"
-              alt="mainlogo"
-              className="badge-logo"
-            />
+          <div className="image-badge" ref={imageBadgeRef}>
+            <img src="/logo.png" alt="logo" className="badge-logo" />
           </div>
         </div>
+      </div>
+
+      {/* Fixed floating badge that stays on scroll */}
+      <div className={`floating-badge ${showFloatingBadge ? "visible" : ""}`}>
+        <img src="/logo.png" alt="mainlogo" className="badge-logo" />
       </div>
       <div className="hero-wave">
         <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">

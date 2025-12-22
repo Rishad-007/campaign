@@ -119,13 +119,20 @@ section {
 /* Responsive */
 @media (max-width: 768px) {
   section {
-    padding: 60px 15px;
+    padding: 50px 20px;
   }
 
   .btn-primary,
-  .btn-secondary,
+  .btn-secondary {
+    padding: 11px 28px;
+    font-size: 15px;
+    border-radius: 24px;
+  }
+
   .btn-outline {
-    padding: 10px 24px;
-    font-size: 14px;
+    padding: 10px 26px;
+    font-size: 15px;
+    border-radius: 24px;
+    border-width: 1.5px;
   }
 }
