@@ -13,7 +13,7 @@ const Hero = () => {
             একসাথে গড়ি উন্নত ভবিষ্যৎ
           </h2>
           <p className="hero-description fade-in-up">
-            সততা, নিষ্ঠা এবং অবিচল নীতিবোধ নিয়ে জনগণের সেবায় প্রতিশ্রুতিবদ্ধ। 
+            সততা, নিষ্ঠা এবং অবিচল নীতিবোধ নিয়ে জনগণের সেবায় প্রতিশ্রুতিবদ্ধ।
             আমাদের সম্প্রদায়ে ইতিবাচক পরিবর্তন আনতে আমাদের সাথে যোগ দিন।
           </p>
           <div className="hero-buttons fade-in-up">
@@ -50,8 +50,8 @@ const Hero = () => {
           </div>
           <div className="floating-badge">
             <img
-              src="/party-logo.png"
-              alt="Party Logo"
+              src="/logo.png"
+              alt="mainlogo"
               className="badge-logo"
             />
           </div>

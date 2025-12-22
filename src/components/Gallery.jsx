@@ -23,7 +23,8 @@ const Gallery = () => {
           <h2 className="section-title">গ্যালারি</h2>
           <div className="title-underline"></div>
           <p className="section-description">
-            আমাদের সেবা, সম্প্রদায় যুক্ততা এবং ইতিবাচক পরিবর্তনের যাত্রার একঝলক।
+            আমাদের সেবা, সম্প্রদায় যুক্ততা এবং ইতিবাচক পরিবর্তনের যাত্রার
+            একঝলক।
           </p>
         </div>
 
@@ -53,7 +54,8 @@ const Gallery = () => {
         <div className="gallery-cta">
           <h3>সংযুক্ত থাকুন</h3>
           <p>
-            দৈনিক আপডেট এবং পর্দার আড়ালে ঘটনার জন্য সোশ্যাল মিডিয়ায় আমাদের অনুসরণ করুন
+            দৈনিক আপডেট এবং পর্দার আড়ালে ঘটনার জন্য সোশ্যাল মিডিয়ায় আমাদের
+            অনুসরণ করুন
           </p>
           <div className="social-links">
             <a href="#facebook" className="social-btn">

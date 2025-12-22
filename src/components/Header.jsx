@@ -18,7 +18,7 @@ const Header = () => {
       <div className="header-container">
         <div className="logo-section">
           <img src="/party-logo.png" alt="Party Logo" className="party-logo" />
-          <span className="logo-text">জনগণের জন্য</span>
+          <span className="logo-text">বাংলাদেশ জাতীয়তাবাদী দল</span>
         </div>
 
         <nav className={`nav ${mobileMenu ? "mobile-open" : ""}`}>
