@@ -361,48 +361,60 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding: 110px 20px 50px;
+    padding: 100px 20px 80px;
     min-height: auto;
   }
 
   .hero-content {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 30px;
     text-align: center;
   }
 
   .hero-text {
     align-items: center;
-    gap: 20px;
+    gap: 16px;
+    order: 2;
+  }
+
+  .hero-image {
+    order: 1;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
   }
 
   .candidate-name-badge {
     align-self: center;
-    padding: 15px 25px;
+    padding: 12px 20px;
   }
 
   .candidate-name {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .badge-label {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .hero-title {
-    font-size: 36px;
+    font-size: 32px;
     line-height: 1.2;
   }
 
   .hero-subtitle {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
   }
 
   .hero-description {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.7;
     opacity: 0.85;
+    max-width: 100%;
+    padding: 0 10px;
   }
 
   .hero-links {
@@ -438,17 +450,10 @@
     text-align: center;
   }
 
-  .hero-image {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
   .image-frame {
     width: 100%;
-    max-width: 280px;
-    height: 360px;
+    max-width: 300px;
+    height: 380px;
     border-radius: 20px;
     border: 3px solid white;
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
@@ -461,9 +466,10 @@
   .image-badge {
     width: 90px;
     height: 90px;
-    top: -12px;
-    right: calc(50% - 140px - 12px);
+    top: -15px;
+    right: calc(50% - 150px - 15px);
     border: 3px solid white;
+    padding: 15px;
   }
 
   .floating-badge {
@@ -473,6 +479,7 @@
     top: 80px;
     right: 20px;
     border: 3px solid white;
+    padding: 15px;
   }
 
   .floating-badge.visible:hover {

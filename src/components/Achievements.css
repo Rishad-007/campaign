@@ -161,26 +161,77 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+  .timeline {
+    padding: 0 10px;
+  }
+
   .timeline::before {
-    left: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
   }
 
   .timeline-item {
-    justify-content: flex-start !important;
+    margin-bottom: 40px;
+  }
+
+  .timeline-item.left {
+    justify-content: flex-start;
+  }
+
+  .timeline-item.right {
+    justify-content: flex-end;
   }
 
   .timeline-content {
-    width: calc(100% - 60px);
-    margin-left: 60px !important;
-    text-align: left !important;
+    width: 42%;
+    padding: 20px 15px;
+  }
+
+  .timeline-item.left .timeline-content {
+    margin-right: auto;
+    text-align: right;
   }
 
   .timeline-item.right .timeline-content {
-    margin-left: 60px !important;
+    margin-left: auto;
+    text-align: left;
+  }
+
+  .year-badge {
+    padding: 6px 14px;
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+
+  .achievement-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .achievement-description {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+
+  .achievement-impact {
+    padding: 6px 12px;
+    font-size: 11px;
   }
 
   .timeline-dot {
-    left: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 16px;
+    height: 16px;
+    border-width: 3px;
+  }
+
+  .timeline-item:hover .timeline-dot {
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 0 6px rgba(46, 125, 50, 0.1);
   }
 
   .achievements-summary {
@@ -188,7 +239,39 @@
     gap: 20px;
   }
 
+  .summary-card {
+    padding: 25px 15px;
+  }
+
   .summary-card h3 {
     font-size: 32px;
+  }
+
+  .summary-card p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-content {
+    width: 40%;
+    padding: 15px 10px;
+  }
+
+  .achievement-title {
+    font-size: 14px;
+  }
+
+  .achievement-description {
+    font-size: 12px;
+  }
+
+  .achievement-impact {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+  .summary-card h3 {
+    font-size: 28px;
   }
 }

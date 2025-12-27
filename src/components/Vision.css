@@ -160,7 +160,27 @@
   }
 
   .mission-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .mission-card {
+    padding: 25px 20px;
+  }
+
+  .mission-number {
+    font-size: 40px;
+    margin-bottom: 12px;
+  }
+
+  .mission-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .mission-card p {
+    font-size: 13px;
+    line-height: 1.6;
   }
 
   .vision-quote {
@@ -173,5 +193,27 @@
 
   .quote-mark {
     font-size: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mission-grid {
+    gap: 15px;
+  }
+
+  .mission-card {
+    padding: 20px 15px;
+  }
+
+  .mission-number {
+    font-size: 36px;
+  }
+
+  .mission-card h4 {
+    font-size: 16px;
+  }
+
+  .mission-card p {
+    font-size: 12px;
   }
 }

@@ -39,23 +39,8 @@ const Hero = () => {
           </h2>
           <p className="hero-description fade-in-up">
             সততা, নিষ্ঠা এবং অবিচল নীতিবোধ নিয়ে জনগণের সেবায় প্রতিশ্রুতিবদ্ধ।
-            আমাদের সম্প্রদায়ে ইতিবাচক পরিবর্তন আনতে আমাদের সাথে যোগ দিন।
+            আমাদের সম্প্রদায়ে ইতিবাচক পরিবর্তন আনতে ধানের শীষে ভোট দিন।
           </p>
-
-          <div className="hero-stats fade-in-up">
-            <div className="stat">
-              <h3>১৫+</h3>
-              <p>বছরের সেবা</p>
-            </div>
-            <div className="stat">
-              <h3>৫০০+</h3>
-              <p>সমাপ্ত প্রকল্প</p>
-            </div>
-            <div className="stat">
-              <h3>৫০,০০০+</h3>
-              <p>প্রভাবিত জীবন</p>
-            </div>
-          </div>
         </div>
         <div className="hero-image">
           <div className="image-frame">

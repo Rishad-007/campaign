@@ -116,7 +116,27 @@
   }
 
   .about-content {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .about-card {
+    padding: 30px 20px;
+  }
+
+  .card-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  .about-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .about-card p {
+    font-size: 14px;
+    line-height: 1.6;
   }
 
   .about-story {
@@ -129,5 +149,27 @@
 
   .story-text {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-content {
+    gap: 15px;
+  }
+
+  .about-card {
+    padding: 25px 15px;
+  }
+
+  .card-icon {
+    font-size: 36px;
+  }
+
+  .about-card h3 {
+    font-size: 18px;
+  }
+
+  .about-card p {
+    font-size: 13px;
   }
 }

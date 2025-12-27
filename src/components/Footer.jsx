@@ -8,11 +8,6 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <img
-              src="/party-logo.png"
-              alt="Party Logo"
-              className="footer-logo"
-            />
             <h3>জনগণের জন্য</h3>
             <p>
               সততা, স্বচ্ছতা এবং নিষ্ঠার সাথে সেবা করতে প্রতিশ্রুতিবদ্ধ। একসাথে,
