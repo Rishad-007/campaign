@@ -339,6 +339,12 @@
 }
 
 /* Responsive */
+@media (min-width: 769px) {
+  .hero-text {
+    margin-top: -60px;
+  }
+}
+
 @media (max-width: 1024px) {
   .hero-title {
     font-size: 50px;

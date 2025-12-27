@@ -18,7 +18,7 @@ const Header = () => {
       <div className="header-container">
         <div className="logo-section">
           <img src="/party-logo.png" alt="Party Logo" className="party-logo" />
-          <span className="logo-text">আসাদুল হাবিব দুলু</span>
+          <span className="logo-text">অধ্যক্ষ আসাদুল হাবিব দুলু</span>
         </div>
 
         <nav className={`nav ${mobileMenu ? "mobile-open" : ""}`}>
@@ -45,14 +45,7 @@ const Header = () => {
           </a>
         </nav>
 
-        <div className="header-actions">
-          <a href="#contact" className="btn-donate">
-            দান করুন
-          </a>
-          <a href="#volunteer" className="btn-volunteer">
-            স্বেচ্ছাসেবক
-          </a>
-        </div>
+        
 
         <button
           className="mobile-menu-btn"
